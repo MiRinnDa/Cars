@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #fefefe;
+    overflow-x: hidden;
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-med {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inter-soft {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inter-lil-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.container {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.BodyBack {
+    background-color: #F4F6F8;
+}
+
+.card-css {
+    background-color: #fff;
+    border-radius: 1rem;
+    width: 12%;
+    height: auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.048);;
+}
+
+.textBlock3 {
+  font-size: 125%;
+}
+
+.block3Img {
+  width: 100%;
+  height: auto
+}
+
+.block3Card2  {
+  border: solid 3px;
+  border-color: #fa002e1e;
+  padding: 2% 8% 2% 2.5%;
+  border-radius: 10px;
+  width: 77%;
+  height: auto;
+}
+
+.font-24 {
+  font-size: 175%;
+}
+
+.font-20 {
+  font-size: 120%;
+}
+
+.font-16 {
+  font-size: 100%;
+}
+
+
+
+
+
+.car-card {
+  padding: 20px;
+  width: 411px;
+  height: 721px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 7px 12px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.label-right {
+  text-align: left; /* Текст по правому краю */
+
+}
+
+.value-left {
+  text-align: right; /* Значения по левому краю */
+}
+
+.row1 {
+display: flex;
+align-items: center;
+gap: 10px; /* расстояние между элементами */
+}
+
+.label {
+white-space: nowrap;
+/* font-size: 20px; */
+color: #777;
+}
+
+.dots {
+flex: 1;
+margin-top: 5px;
+border-bottom: 2px dotted #ccc; /* сами точки */
+}
+
+.value {
+white-space: nowrap;
+font-size: 110%;
+font-weight: bold;
+}
+
+
+
+/* From Uiverse.io by krlozCJ */ 
+.button1 {
+  border: none;
+  outline: none;
+  background-color: #FA002C;
+  padding: 10px 20px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  transition: all ease 0.1s;
+  box-shadow: 0px 5px 0px 0px #ff7891;
+  user-select: none;
+}
+
+.button1:active {
+  transform: translateY(5px);
+  box-shadow: 0px 0px 0px 0px #ff1d46;
+}
